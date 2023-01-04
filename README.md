@@ -45,7 +45,7 @@ Furthermore, the opportunity is provided to identify compound events. In the tra
 
 ### Cross-camera Challenge
 Cross camera-view provides a more **heuristic view** of the household environment and enables training and testing on more flexible settings. We provide a sufficient number of camera perspectives so that cross-view challenges can be conducted in a single household or even a single room with various combinations of view angles. Machine learning models can be trained and tested with different combinations of camera views to resemble more realistic scenarios. 
-This offers a chance to test the **portability** of the machine learning model with a different partition of training and testing set. With training data in one room and testing data in others, the performance of the model in a new home environment can be tested. In addition, by training the model in one house and testing it in the other, a more practical testing scenario can be achieved. The cross-view challenges can be performed in all tasks mentioned above; the camera id is provided along with other labels.
+This offers a chance to test the **portability** of the machine learning model with a different partition of training and testing set. With training data in one room and testing data in others, the performance of the model in a new home environment can be tested. In addition, by training the model in one house and testing it in the other, a more practical testing scenario can be achieved. The cross-view challenges can be performed in all tasks mentioned above; the *camera_id* is provided along with other labels.
 ![](https://github.com/UIUC-ChenLab/YouHome-Dataset/blob/main/readme/cross.jpg)
 
 ## People

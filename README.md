@@ -17,7 +17,6 @@ The **YouHome ADL dataset** is introduced on this page. The YouHome ADL dataset 
     * [Dataset Preparation](#dataset--preparation)
     * [Train](#train)
     * [Test](#test)
-    * [Evaluation](#evaluation)
 * [YouHome-nodes](#YouHome-node)
 * [How to Cite?](#citation)
 * [Related Repos](#related-repos)

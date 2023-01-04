@@ -31,24 +31,23 @@ The YouHome ADL dataset aims to push multiple state-of-the-art smart home tasks 
 
 ### Indoor-environment Human Detection
 Object detection is one of the most famous computer vision tasks; however, there is a lack of dataset focus on human object detection in the home environment where the light condition can change frequently, and the occlusion of humans can happen suddenly. This differs from outdoor object detection, where the difficulty is majorly on the small size of the object or the similarity between the object and the background color. The YouHome dataset features new challenges in object detection, not only in **light condition changes** or **occluded data** but also in **human objects in different poses** completely different from ordinary standing postures. 
+![](https://github.com/UIUC-ChenLab/YouHome-Dataset/blob/main/readme/human_detection.jpg)
 
-[comment]: <> (<font color=red>**++灯光不一样的图**</font>)
 ### Person Re-Identification
 Person re-identification is a follow-up task after a human object is detected. The major focus of the person Re-Id is the re-identification of pedestrians in an outdoor environment. Because most of their datasets are surveillance videos from public places, the posture of pedestrians is mostly limited to walking. As a result, the excessive number of pedestrians and the small training frequently set present difficulties in the re-identification tasks. In the YouHome dataset, we present a novel concept and challenge for re-ID: the re-identification of indoor users. When completing the movement in the home environment, users adopt a walking posture and sitting, lying, and other **irregular postures**. In the previous dataset, few provided data on the re-recognition of **various garments**. In addition to including this content, we also included the **body shape and appearance changes** of the same users. 
-
-[comment]: <> (<font color=red>**++灯光不一样的图**</font>)
+![](https://github.com/UIUC-ChenLab/YouHome-Dataset/blob/main/readme/Reid_1.png)
 
 ### Activity Recognition
 The YouHome ADL dataset possesses many unique features when performing activity recognition. First, it is a ** bias-free** dataset that eliminates the possibility of recognizing activities based solely on their environmental context. Multiple activities are conducted and collected at each location in the YouHome dataset; thus, there is no one-to-one mapping between an activity and a context. 
 Existing datasets are collected through either **monitoring or shooting**; the YouHome dataset combines these two techniques and delivers more comprehensive data. In addition, few ADL datasets include **interactive events**, whereas subjects in our dataset not only follow prompts to interact during shooting sessions but also act freely without cues while we simply monitor and collect data. This creates a unique chance to train on clean data while testing on more realistic data. In both households, there are five functional areas: Entrance, Kitchen, Dining Room, Living Room, and Bedroom. Users are expected to perform different activities in each area. In addition to the visual images, **ambient sensor data are also available** for providing additional information. 
 Furthermore, the opportunity is provided to identify compound events. In the traditional multi-class classification task, only a single label can be output, whereas our **multi-label compound events** must output an arbitrary number of labels. In contrast to the multi-label classification of object detection, where the feature of different objects is utterly different, the multi-label classification of compound events is difficult due to the similarity of user action postures.
+![](https://github.com/UIUC-ChenLab/YouHome-Dataset/blob/main/readme/activity.jpg)
 
-[comment]: <> (<font color=red>**++compound的图**</font>)
 ### Cross-camera Challenge
 Cross camera-view provides a more **heuristic view** of the household environment and enables training and testing on more flexible settings. We provide a sufficient number of camera perspectives so that cross-view challenges can be conducted in a single household or even a single room with various combinations of view angles. Machine learning models can be trained and tested with different combinations of camera views to resemble more realistic scenarios. 
 This offers a chance to test the **portability** of the machine learning model with a different partition of training and testing set. With training data in one room and testing data in others, the performance of the model in a new home environment can be tested. In addition, by training the model in one house and testing it in the other, a more practical testing scenario can be achieved. The cross-view challenges can be performed in all tasks mentioned above; the camera id is provided along with other labels.
+![](https://github.com/UIUC-ChenLab/YouHome-Dataset/blob/main/readme/cross.jpg)
 
-[comment]: <> (<font color=red>**++不同camera的图**</font>)
 ## People
 Junhao Pan, Ph.D. Student at University of Illinois at Urbana-Champaign
 
@@ -81,10 +80,12 @@ python setup.py install
 ### Dataset & Preparation
 Download [YouHome-ADL-Dataset] <font color=red>**++Here need a link**</font>
 
-Preparation: Put the images with the same id in one folder. You may use 
-```bash
-python prepare.py
-```
+Preparation: 
+For activity recognition, put the images with the same *activity_id* in one folder. 
+
+For human re-identification, put the images with the same *user_id* in one folder.
+
+For the cross-camera challenge, further divide the dataset along with *camera_id*. 
 
 ### Train
 #### Activity Recognition

@@ -35,7 +35,7 @@ Object detection is one of the most famous computer vision tasks; however, there
 
 ### Person Re-Identification
 Person re-identification is a follow-up task after a human object is detected. The major focus of the person Re-Id is the re-identification of pedestrians in an outdoor environment. Because most of their datasets are surveillance videos from public places, the posture of pedestrians is mostly limited to walking. As a result, the excessive number of pedestrians and the small training frequently set present difficulties in the re-identification tasks. In the YouHome dataset, we present a novel concept and challenge for re-ID: the re-identification of indoor users. When completing the movement in the home environment, users adopt a walking posture and sitting, lying, and other **irregular postures**. In the previous dataset, few provided data on the re-recognition of **various garments**. In addition to including this content, we also included the **body shape and appearance changes** of the same users. 
-![](https://github.com/UIUC-ChenLab/YouHome-Dataset/blob/main/readme/Reid_1.png)
+![](https://github.com/UIUC-ChenLab/YouHome-Dataset/blob/main/readme/Reid_1.jpg)
 
 ### Activity Recognition
 The YouHome ADL dataset possesses many unique features when performing activity recognition. First, it is a ** bias-free** dataset that eliminates the possibility of recognizing activities based solely on their environmental context. Multiple activities are conducted and collected at each location in the YouHome dataset; thus, there is no one-to-one mapping between an activity and a context. 

@@ -3,7 +3,7 @@
 
 [![License: Apache](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
-The **YouHome ADL dataset** is introduced on this page. The YouHome ADL dataset was gathered in two households that had [YouHome-nodes](#YouHome-node) installed. It includes **31** subjects' common daily living activities. The dataset has a resolution of 640 x 480 and includes image, illuminance, temperature, humidity, motion, and sound sensor data. There are **isolated daily activities, continuous daily activities sequences, and multiple-user interactive data**. The image data were sliced from videos. The subjects' faces have been blurred for privacy reasons. At the moment, labeled images and sensor data are available.
+The **YouHome ADL dataset** is introduced on this page. The YouHome ADL dataset was gathered in two households that had [YouHome-nodes](#YouHome-node) installed. It includes **20** users' **31** common daily living activities. The dataset has a resolution of 640 x 480 and includes image, illuminance, temperature, humidity, motion, and sound sensor data. There are **isolated daily activities, continuous daily activities sequences, and multiple-user interactive data**. The image data were sliced from videos. The subjects' faces have been blurred for privacy reasons. At the moment, labeled images and sensor data are available.
 
 ![](https://github.com/UIUC-ChenLab/YouHome-Dataset/blob/main/readme/house1_2.jpg)
 

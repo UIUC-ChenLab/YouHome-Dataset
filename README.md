@@ -33,7 +33,7 @@ Object detection is one of the most famous computer vision tasks; however, there
 ![](https://github.com/UIUC-ChenLab/YouHome-Dataset/blob/main/readme/human_detection_1.jpg)
 
 ### Person Re-Identification
-Person re-identification is a follow-up task after a human object is detected. The major focus of the person Re-Id is the re-identification of pedestrians in an outdoor environment. Because most of their datasets are surveillance videos from public places, the posture of pedestrians is mostly limited to walking. In the YouHome dataset, we present a novel concept and challenge for re-ID: the re-identification of indoor users. When completing the movement in the home environment, users adopt a walking posture and sitting, lying, and other **irregular postures**. In the previous dataset, few provided data on the re-recognition of **various garments**. In addition to including this content, we also included the **body shape and appearance changes** of the same users. 
+Person re-identification is a follow-up task after a human object is detected. The major focus of the person Re-Id is the re-identification of pedestrians in an outdoor environment. Because most of the available datasets are surveillance videos from public places, the posture of pedestrians is mostly limited to walking. In the YouHome dataset, we present a novel concept and challenge for re-ID: the re-identification of indoor users, where users perform different postures than walking on various outfits. This adds more difficulty in recognizing users with color features. When completing the movement in the home environment, users adopt a walking posture and sitting, lying, and other **irregular postures**. In the previous dataset, few provided data on the re-recognition of **various garments**. In addition to including this content, we also included the **body shape and appearance changes** of the same users. 
 ![](https://github.com/UIUC-ChenLab/YouHome-Dataset/blob/main/readme/Reid_1.jpg)
 
 ### Activity Recognition
@@ -58,7 +58,7 @@ Dr. Deming Chen, Abel Bliss Professor of Engineering at University of Illinois a
 
 
 ## Tutorial and Examples
-In this section, we provide training and testing code for 8:1:1, Train: Val: Test activity recognition and person re-identification. The activity recognition is origin from [Pytorch-resnet](https://github.com/kuangliu/pytorch-cifar), the re-identification is origin from [Person-reID-baseline-pytorch](https://github.com/layumi/Person_reID_baseline_pytorch/).
+In this section, we provide training and testing code for activity recognition and human re-identification. During our tutorial, the dataset is split into 8:1:1, Train: Val: Test. The activity recognition is origin from [Pytorch-resnet](https://github.com/kuangliu/pytorch-cifar), the re-identification is origin from [Person-reID-baseline-pytorch](https://github.com/layumi/Person_reID_baseline_pytorch/).
 
 ### Prerequisites
 

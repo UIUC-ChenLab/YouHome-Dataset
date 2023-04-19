@@ -77,7 +77,7 @@ python setup.py install
 ```
 
 ### Dataset & Preparation
-Download [YouHome-ADL-Dataset] <font color=red>**++Here need a link**</font>
+Download [YouHome-ADL-Dataset](https://uofi.box.com/s/21k90kmybyuinsssk8ygsjhbqluu5n7e)
 
 Preparation: 
 For activity recognition, put the images with the same *activity_id* in one folder. 

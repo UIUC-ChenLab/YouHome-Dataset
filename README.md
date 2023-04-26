@@ -20,6 +20,7 @@ The **YouHome ADL dataset** is introduced on this page. The YouHome ADL dataset 
 * [YouHome-nodes](#YouHome-node)
 * [How to Cite?](#citation)
 * [Related Repos](#related-repos)
+* [Question and Comments](#QandC)
 
 
 
@@ -169,3 +170,7 @@ Please cite the following paper for the YouHome ADL dataset; it also reports the
 1. [Person-reID-baseline-pytorch](https://github.com/layumi/Person_reID_baseline_pytorch/)
 2. [Yolov5](https://github.com/ultralytics/yolov5)
 3. [Pytorch-resnet](https://github.com/kuangliu/pytorch-cifar) 
+
+## Question and Comments
+Please submit an issue or contact Neo directly through zehuay2@illinois.edu.
+We are continuously updating the labels, more use cases are coming out!!

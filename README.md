@@ -5,6 +5,7 @@
 
 The **YouHome ADL dataset** is introduced on this page. The YouHome ADL dataset was gathered in two households that had [YouHome-nodes](#YouHome-node) installed. It includes **20** users' **31** common daily living activities. The dataset has a resolution of 640 x 480 and includes image, illuminance, temperature, humidity, motion, and sound sensor data. There are **isolated daily activities, continuous daily activities sequences, and multiple-user interactive data**. The image data were sliced from videos. The subjects' faces have been blurred for privacy reasons. At the moment, labeled images and sensor data are available.
 
+**Novel multi-user comprehensive data and annotations are under preparation and will come out soon!**
 ![](https://github.com/UIUC-ChenLab/YouHome-Dataset/blob/main/readme/house1_2.jpg)
 
 
